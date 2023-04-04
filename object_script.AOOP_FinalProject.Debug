@@ -1,0 +1,11 @@
+debug/account.o
+debug/boss.o
+debug/buyer.o
+debug/main.o
+debug/mainwindow.o
+debug/product.o
+debug/productbutton.o
+debug/seller.o
+debug/uploadproduct.o
+debug/moc_mainwindow.o
+debug/moc_uploadproduct.o

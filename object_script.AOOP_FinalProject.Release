@@ -1,0 +1,11 @@
+release/account.o
+release/boss.o
+release/buyer.o
+release/main.o
+release/mainwindow.o
+release/product.o
+release/productbutton.o
+release/seller.o
+release/uploadproduct.o
+release/moc_mainwindow.o
+release/moc_uploadproduct.o
