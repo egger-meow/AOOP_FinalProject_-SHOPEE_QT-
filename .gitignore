@@ -1,0 +1,85 @@
+# Qt-specific files
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.autosave
+
+# Qt build artifacts
+Makefile
+Makefile.*
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.app
+
+# Build directories
+debug/
+release/
+build/
+bin/
+obj/
+
+# Qt Creator specific
+.qmake.stash
+*.pro.user.*
+object_script.*
+
+# C++ build artifacts
+*.lo
+*.slo
+*.ko
+*.obj
+*.elf
+*.ilk
+*.map
+*.exp
+*.gch
+*.pch
+*.la
+*.lai
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Database credentials (security)
+database_config.h
+*.sql
+
+# Temporary files
+tmp/
+temp/
+*.log

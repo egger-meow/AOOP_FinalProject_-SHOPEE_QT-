@@ -8,30 +8,33 @@ CONFIG += c++11
 # In order to do so, uncomment the following line.
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
+# Include paths for organized directory structure
+INCLUDEPATH += include
+
 SOURCES += \
-    account.cpp \
-    boss.cpp \
-    buyer.cpp \
-    main.cpp \
-    mainwindow.cpp \
-    product.cpp \
-    productbutton.cpp \
-    seller.cpp \
-    uploadproduct.cpp
+    src/account.cpp \
+    src/boss.cpp \
+    src/buyer.cpp \
+    src/main.cpp \
+    src/mainwindow.cpp \
+    src/product.cpp \
+    src/productbutton.cpp \
+    src/seller.cpp \
+    src/uploadproduct.cpp
 
 HEADERS += \
-    account.h \
-    account_procession.h \
-    boss.h \
-    buyer.h \
-    mainwindow.h \
-    product.h \
-    productbutton.h \
-    seller.h \
-    uploadproduct.h
+    include/account.h \
+    include/account_procession.h \
+    include/boss.h \
+    include/buyer.h \
+    include/mainwindow.h \
+    include/product.h \
+    include/productbutton.h \
+    include/seller.h \
+    include/uploadproduct.h
 
 FORMS += \
-    mainwindow.ui
+    ui/mainwindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
